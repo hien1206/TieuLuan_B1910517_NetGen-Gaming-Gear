@@ -26,7 +26,7 @@
 <head>
   <link rel="stylesheet" href="css/login.css">
   <title>Login Admin</title>
-  <link rel="shortcut icon" href="../assets/images/icon/favicon.ico"/>
+  <link rel="shortcut icon" href="../assets/images/logo/NetGen Gaming Gear 1.png" />
 </head>
 <body>
     <section class="login">

@@ -13,7 +13,7 @@ if (!isset($_SESSION['login'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Admin</title>
 
-  <link rel="shortcut icon" href="../assets/images/logo/NetGen Gaming Gear.png" />
+  <link rel="shortcut icon" href="../assets/images/logo/NetGen Gaming Gear 1.png" />
 
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/feather/feather.css">
