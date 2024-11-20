@@ -90,7 +90,7 @@
                             <img src="images/faces/face12.jpg" alt="image" class="img-sm profile-pic">
                         </div>
                         <div class="preview-item-content flex-grow py-2">
-                            <p class="preview-subject ellipsis font-weight-medium text-dark">Nguyễn Quân</p>
+                            <p class="preview-subject ellipsis font-weight-medium text-dark">Trọng Hiển</p>
                             <p class="fw-light small-text mb-0"> Yêu cầu hủy đơn hàng </p>
                         </div>
                     </a>

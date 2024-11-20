@@ -118,7 +118,7 @@ if (isset($_GET['pricefrom']) && isset($_GET['priceto'])) {
                     </div>
                     <div class="sidebar__item w-100">
                         <div class="sidebar__item--heading">
-                            <h3 class="h3">Thương hiệu</h3>
+                            <h3 class="h3">Xuất xứ và thương hiệu</h3>
                         </div>
                         <div class="sidebar__item--content">
                             <div class="product-detail__variant--items d-flex">
@@ -184,7 +184,7 @@ if (isset($_GET['pricefrom']) && isset($_GET['priceto'])) {
                                     <div class="d-flex align-center">
                                         <div class="btn__tag d-flex align-center"><img class="icon-close" src="./assets/images/icon/icon-close.png" alt=""></div>
                                         <div class="tag__content d-flex align-center">
-                                            <span class="tag__name h5">Thương hiệu</span>
+                                            <span class="tag__name h5">Xuất xứ và thương hiệu</span>
                                         </div>
                                     </div>
                                 </a>
@@ -380,8 +380,7 @@ if (isset($_GET['pricefrom']) && isset($_GET['priceto'])) {
         console.log(link);
         btnFilter.href = link;
     }
-    window.history.pushState(null, "", "index.php?page=products" + "<?php echo $url_category;
-                                                                    echo $url_brand;
-                                                                    echo $url_price;
-                                                                    echo $url_sort; ?>");
+
+    // Make sure the PHP variables are correctly echoed
+    window.history.pushState(null, "", "index.php?page=products<?php echo $url_category . $url_brand . $url_price . $url_sort; ?>");
 </script>

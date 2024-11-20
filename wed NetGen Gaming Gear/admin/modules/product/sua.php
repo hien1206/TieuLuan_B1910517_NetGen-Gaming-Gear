@@ -47,7 +47,7 @@ $query_product_edit = mysqli_query($mysqli, $sql_product_edit);
                                 </select>
                             </div>
                             <div class="input-item form-group">
-                                <label for="title" class="d-block">Màu sản phẩm</label>
+                                <label for="title" class="d-block">Màu sản phẩm-</label>
                                 <select name="product_capacity" id="product_capacity" class="form-control select_capacity">
                                     <option value="0">Chưa xác định</option>
                                     <?php

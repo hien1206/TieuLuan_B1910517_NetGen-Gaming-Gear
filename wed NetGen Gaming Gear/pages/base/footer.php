@@ -23,7 +23,7 @@
                 <div class="col" style="--w-md: 4">
                     <div class="footer__block pd-top">
                         <div class="block__heading">
-                             Xuất Xứ
+                             Xuất Xứ - Thương hiệu
                         </div>
                         <ul class="block__list">
                             <?php

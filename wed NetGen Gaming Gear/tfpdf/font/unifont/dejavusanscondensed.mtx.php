@@ -13,7 +13,7 @@ $desc=array (
 );
 $up=-63;
 $ut=44;
-$ttffile='C:\xampp\htdocs\NuocHoaPHP\tfpdf/font/unifont/DejaVuSansCondensed.ttf';
+$ttffile='C:\xampp\htdocs\TIEU_LUAN\wed NetGen Gaming Gear\tfpdf\font\unifont/DejaVuSansCondensed.ttf';
 $originalsize=680264;
 $fontkey='dejavu';
 ?>

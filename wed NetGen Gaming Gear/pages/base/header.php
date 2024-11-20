@@ -114,7 +114,7 @@ if (isset($_SESSION['account_email']) && isset($_SESSION['account_id'])) {
 
                             </ul>
                         </li>
-                        <li class="nav__item nav__items h7">
+                        <!-- <li class="nav__item nav__items h7">
                             <span class="nav__anchor p-relative h7 d-flex align-center space-between w-100 cursor-pointer" href="#">
                                   Xuất Xứ
                                 <img class="md-none svg__icon" src="./assets/images/icon/icon-nextlink.svg" alt="next" />
@@ -126,8 +126,8 @@ if (isset($_SESSION['account_email']) && isset($_SESSION['account_id'])) {
                                         <img class="md-none svg__icon" src="./assets/images/icon/arrow-left.svg" alt="" style="margin-right: 8px" />
                                           Xuất Xứ
                                     </span>
-                                </li>
-                                <?php
+                                </li> -->
+                                <!-- <?php
                                 $sql_brand_list = "SELECT * FROM brand ORDER BY brand_id DESC";
                                 $query_brand_list = mysqli_query($mysqli, $sql_brand_list);
                                 while ($row_brand = mysqli_fetch_array($query_brand_list)) {
@@ -142,7 +142,7 @@ if (isset($_SESSION['account_email']) && isset($_SESSION['account_id'])) {
                                 ?>
 
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="nav__item">
                             <a class="nav__anchor h7 d-flex align-center space-between" href="index.php?page=about">
                                 Giới thiệu
